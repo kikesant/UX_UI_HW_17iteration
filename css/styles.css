@@ -1,43 +1,63 @@
+h1 {font-family: 'Lato', sans-serif;}
+p {font-family: 'Lato', sans-serif;}
+li {font-family: 'Lato', sans-serif;}
 .inline-block {
     display: inline-block;
-    vertical-align: top; 
-}
-.logo div {
-    width:23%;
-    padding: 1%;
-    text-align: center;
+    vertical-align: right; 
 }
 .logo {
-    width:23%;
     padding: 1%;
     text-align: center;
 }
 nav {
     width: 73%;
     padding: 1%;
-}
-ul {
+} 
+.inline-block ul {
     width: 50%;
-    margin-left: auto;
+    margin-left: 65%;
+    word-spacing: 1rem;
 }
-.heroImg section {
-    height: 600px; 
+section {
+    background-color:red;
+    width: 90%;
+    height: 500px; 
     padding: 25px;
-}   
-.Hero img {
-    float: right;
-}
-
+}    
 .content {
-    width: 500px; 
+    height: 50%
+} 
+.content img {
+    float: left;
+    padding: 20px; 
+}
+.content {
+    width: 90%; 
     padding: 0 auto;
+    margin: 50px; 
 }    
 footer {
-    background-color: #373738;
+    position: absolute;
+    bottom; 0;
+    width: 90%;
+    height: 2.5rem; 
+    text-align: center;
+    background-color: #F2F2F2;
     padding: 10px;
+    margin: 10px;
 } 
-ul {
+button {
+    background-color: #7C69A5; 
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 15px; 
+    width: 169px;
+    height: 52;
+} 
+.footerlist li {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
     padding: 10px;
-}     
+    word-spacing: 1rem;
+}  
